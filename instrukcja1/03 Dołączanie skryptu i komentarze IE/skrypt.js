@@ -1,0 +1,1 @@
+alert("to jest teks wyświetlanyprzez skrypt")

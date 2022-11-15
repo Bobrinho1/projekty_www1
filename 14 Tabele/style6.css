@@ -1,0 +1,9 @@
+table {
+    font: 90%/1.5em "Lucida Grande", Geneva, "DejaVu Sans", "Bitstream Vera Sans", AnjaliOldlLipi, "Lucida Sans", "Trebuchet MS", Arial, Verdana;
+    text-align: center;
+    border: 4px black double;
+    border-spacing: 0;
+    border-radius: 12px;
+    box-shadow: #6a3d37 5px 5px 6px;
+    background-color: #b59d5c;
+}

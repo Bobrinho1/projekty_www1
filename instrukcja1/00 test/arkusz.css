@@ -1,0 +1,13 @@
+body {
+    background-color: black ;
+    color: azure;
+    font-family: sans-serif;
+    margin: 50px;
+    
+}
+
+h1 {
+    background-color: grey;
+    padding: 25px;
+    text-align: center;
+}
