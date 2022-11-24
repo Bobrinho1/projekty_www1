@@ -3,58 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <head>
+<head>
     <h1>Zadanie 17 - Trampki</h1>
     <h2>Autor: Grzegorz Bober klasa:1p</h2>
-  </head>
-  <hr>
- <div id="strona">
-   <h1>Formularz konkursu "Podrasuj swoje buty!"</h1>
-   <p>Chcesz zamienić swoej stare trampki na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam, dlaczego sądzisz, że powinieneś <b><i>pożegnać się</i></b> ze swoimi wysłużonymi butami, a być może zostaniesz jednym z laureatów konkursu!</p>
-   <form action="#">
-     <p><i>Proszę wypełnić ten formularz. Obowiązkowe pola oznaczono znakiem
-     </i><em>*</em>.</p>
-     <fieldset>
-       <legend>Podstawowe dane</legend>
-       <label for="name">Imię i nazwisko</label>
-       <input id="name"><br>
-       <label for="telephone">Nr telefonu</label>
-       <input id="telephone"><br>
-       <label for="email">E-mail <em>*</em></label>
-       <input id="email"><br>
-     </fieldset>
-     <fieldset>
-       <legend>Szczegółowe dane osobowe</legend>
-       <label for="age">Wiek <em>*</em></label>
-       <input id="age"><br>
-       <label for="gender">Płeć</label>
-       <select id="gender">
-         <option value="female">Kobieta</option>
-         <option value="male">Mężczyzna</option>
-       </select><br>
-       <label for="comments">Kiedy zdałaś/łeś sobie sprawę, że opiekun zwierząt to
-         zawód dla Ciebie?</label>
-       <textarea id="comments"></textarea>
-     </fieldset>
-     <fieldset>
-       <legend>Zaznacz swoje ulubione zwierzęta</legend>
-       <label for="zebra"><input id="zebra" type="checkbox"> zebra</label>
-       <label for="cat"><input id="cat" type="checkbox"> kot</label>
-       <label for="anaconda"><input id="anaconda" type="checkbox"> anakonda</label>
-       <label for="human"><input id="human" type="checkbox"> człowiek</label>
-       <label for="elephant"><input id="elephant" type="checkbox"> słoń</label>
-       <label for="horse"><input id="horse" type="checkbox"> koń</label>
-       <label for="pigeon"><input id="pigeon" type="checkbox"> gołąb</label>
-       <label for="crab"><input id="crab" type="checkbox"> krab</label>
-     </fieldset>
-     <fieldset>
-       <legend>Napisz coś o sobie.</legend>
-       <textarea id="comments"></textarea>
-     </fieldset>
-     <p><input type="submit" value="Wyślij formularz"></p>
-   </form>
- </div>
+</head>
+<hr>
+    <h1>Formularz konkursu "Podrasuj swoje buty!"</h1>
+    <p>Chcesz zamienić swoje stare trampki na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam,
+        dlaczego sądzisz, że powinieneś <b><i>pożegnać się</i></b> ze swoimi wysłużonymi butami, a być może zostaniesz
+        jednym z laureatów konkursu!</p>
+    <fieldset>
+        <legend>Podstawowe dane</legend>
+        <label for="name">Imię i nazwisko</label>
+        <input id="name"><br>
+        <label for="email">E-mail</label>
+        <input id="email"><br>
+        <label for="telephone">Telephone</label>
+        <input id="telephone"><br>
+        <label for="comments">Moje buty są TAKIE stare...</label> <br>
+        <textarea id="comments" rows="5" cols="60" placeholder="Nie więcej niż 300 znaków..."></textarea>
+    </fieldset>
+    <h1>Zaprojektuj własne trampki: </h1>
+    <fieldset>
+        <legend>Własny projekt butów</legend>
+        <fieldset>
+            <legend>Kolor (wybierz jeden)</legend>
+            <label for="red"><input id="red" type="radio" name="color"> Czerwony</label><br>
+            <label for="blue"><input id="blue" type="radio" name="color"> Niebieski</label><br>
+            <label for="black"><input id="black" type="radio" name="color"> Czarny</label><br>
+            <label for="silver"><input id="silver" type="radio" name="color"> Srebrny</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Opcje (możesz wybrać kilka)</legend>
+            <label for="sznorowki"><input id="sznorowki" type="checkbox"> Błyszczące sznurówki</label><br>
+            <label for="logo"><input id="logo" type="checkbox"> Metalowe logo</label><br>
+            <label for="podeszwy"><input id="podeszwy" type="checkbox"> Świecące podeszwy</label><br>
+            <label for="mp3"><input id="mp3" type="checkbox"> Odtwarzanie MP3</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Rozmiar</legend>
+            <label for="rozmiar">Rozmiar zgodny ze standardowymi numerami butów</label>
+            <select id="rozmiar">
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+            </select>
+        </fieldset>
+    </fieldset>
+    <input type="submit" value="Podrasuj swoje buty!">
+    <input type="reset">
+    </form>
 </body>
 </html>
