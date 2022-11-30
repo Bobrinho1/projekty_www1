@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica;
+}
+#baner-lewy, #blok-lewy  {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+#blok-prawy, #baner-prawy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+#blok-glowny, #stopka {
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+    clear: both;
+}
+table, td {
+    border: 1px rgb(130,69,85) solid;
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+a {
+    color: rgb(240, 234, 226);
+}
