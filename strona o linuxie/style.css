@@ -37,25 +37,45 @@ body {
     text-align: center;
     border-right: 2px dotted #cccccc;
 }
-#topbarR{
- float: left;
-    width
+#topbarR {
+    float: left;
+    padding: 20px;
+    width: 138px;
+    text-align: center;
 }
 #center{
     float: left;
-    padding: 20px;
-    width: 140px;
-    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 600px;
+    text-align: left;
     border-right: 2px dotted #cccccc;
 }
 #sidebar {
-
+    float: left;
+    width: 148px;
+    min-height: 660px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
 }
 #content {
+    float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    min-height: 620px;
+    text-align: justify;
 
 }
 #footer {
-
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
 }
 .option{
     float: left;
@@ -69,4 +89,20 @@ body {
 .option:hover{
     background-color: #000000;
     cursor: pointer;
+}
+.optionl{
+    font: 18px;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 2px dotted #444444;
+}
+.optionl:hover{
+    background-color: #f36742;
+    color: white;
+    cursor: pointer;
+}
+.bigtitle{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
