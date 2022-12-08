@@ -1,0 +1,31 @@
+#container{
+    background-color: cyan;
+    width: auto;
+}
+#head{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    height: 100px;
+}
+#nav {
+    float: left;
+    background-color: grey;
+    height: 300px;
+    width: 28%;
+    padding-left: 2%;
+}
+#content{
+    float: left;
+    background-color: yellow;
+    padding-left: 2%;
+    height: 500px;
+    width: 68%;
+}
+#footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
