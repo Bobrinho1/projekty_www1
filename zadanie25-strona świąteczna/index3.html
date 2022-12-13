@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Strona Świąteczna</title>
+    <link rel="icon" href="święty-mikołaj-bez-tła.gif">
+    <link rel="stylesheet" href="style.css"/>
 
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="logo">
+        <img src="święty-mikołaj-bez-tła.gif" height="150" width="150" style="background-color: white; border: 3px black solid"/>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="index2.html">O Mikołaju</a></li>
+            <li><a href="index3.html">Napisz List do Mikołaja</a></li>
+        </ul>
+    </div>
+    <div id="header2">
+        <div id="title_head">
+            <h2>List Do Świętego Mikołaja</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Przedstaw się:</legend>
+                    <label for="first_name">Imię</label>
+                    <input id="first_name"><br>
+                    <label for="family_name">Nazwisko</label>
+                    <input id="family_name"><br>
+                    <label for="adres">Adres</label>
+                    <input id="adres"><br>
+                    <label for="age">Wiek</label>
+                    <input id="age"><br>
+                    <label for="gender">Płeć</label>
+                    <select id="gender">
+                        <option value="female">Kobieta</option>
+                        <option value="male">Mężczyzna</option>
+                    </select><br>
+                    <label for="comments">Co byś chciał pod choinkę?</label><br>
+                    <textarea id="comments"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Byłeś grzeczny w tym roku?</legend>
+                        <input type="radio" name="tak/nie" value="tak" />
+                        Tak
+                        <input type="radio" name="tak/nie" value="nie" />
+                        Nie
+                </fieldset>
+                <p><input type="submit" value="Wyślij formularz"></p>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy Wszelkie prawa zastrzeżone. Autor: Grzegorz Bober 1p</p>
+    </div>
 </body>
 </html>

@@ -1,10 +1,10 @@
 body {
     font-family: Arial;
     font-size: 12px;
-    color: #666;
+    color: red;
     text-align: center;
     margin: 0;
-    background: #002e3c url(../images/bg_top.png) no-repeat 3.5cm 0cm;
+    background: #E74C3C;
 }
 
 #wrapper {
@@ -14,12 +14,12 @@ body {
 }
 
 a {
-    color: #273b52;
+    color: #E74C3C;
     text-decoration: none;
 }
 
 p {
-    color: #273b52;
+    color: #E74C3C;
 }
 
 a:hover {
@@ -39,7 +39,7 @@ a:hover {
 #menu ul {
     list-style: none;
     margin: 0;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
 }
 
 #menu li {
@@ -70,7 +70,7 @@ a:hover {
     -khtml-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background: #02475c;
+    background: #EC7063;
 }
 
 .active {
@@ -87,10 +87,17 @@ a:hover {
     height: 310px;
     margin-top: 20px;
     float: left;
-    background: #FFF url(../images/bg_box.png) repeat-x bottom;
-    border: 5px solid #046c8b;
+    background: #FFF;
+    border: 5px solid #EC7063;
 }
-
+#header2 {
+    width: 550px;
+    height: auto;
+    margin-top: 100px;
+    float: left;
+    background: #FFF;
+    border: 5px solid #EC7063;
+}
 #header img {
     padding: 10px;
 }
@@ -104,13 +111,13 @@ a:hover {
 }
 
 #title_head h2 {
-    color: #df6f00;
+    color: #EC7063;
     font-size: 36px;
     font-family: "Times New Roman", Times, serif;
 }
 
 #title_head span {
-    color: #777;
+    color: #EC7063;
     font-size: 15px;
     font-weight: normal;
     line-height: 26px;
@@ -152,7 +159,7 @@ h2 {
     width: 940px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    background: #FFF url(../images/bg_box.png) repeat-x bottom;
+    background: #FFF;
     margin-top: 10px;
     padding: 10px;
 }
@@ -182,7 +189,6 @@ h2 {
 
 #solid_box a {
     color: #FF9000;
-    background:  url(../images/bullet.gif) no-repeat left;
     font-size: 12px;
     font-weight: bold;
     padding-left: 15px;
