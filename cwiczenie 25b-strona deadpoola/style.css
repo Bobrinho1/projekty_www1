@@ -1,0 +1,37 @@
+*{
+    font-family: sans-serif;
+    width: 1000px;
+}
+#container{
+    background-image: url("deadpool1-gallery-image.jpg  ");
+    height: 538px;
+}
+#header{
+    background-color:black;
+    color: white;
+    text-align: center;
+    border-bottom: 2px white dotted;
+    padding-top: 5px;
+}
+#nav {
+    text-align: center;
+    color: rgb(255,255,255,1);
+    padding: 10px;
+    margin: 50px;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    float: right;
+    background: rgb(0, 0, 0, 0.7);
+
+}
+#footer{
+    background-color: black;
+    clear: both;
+    color: gold;
+    height: 55px;
+    float: bottom;
+    margin-top: 480px;
+    text-align: center;
+    padding-top: 5px;
+}
