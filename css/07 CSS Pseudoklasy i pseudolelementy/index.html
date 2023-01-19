@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07 CSS Pseudoklasy i pseudolelementy</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-weight: 600;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        position: relative;
+      }
+      p::before {
+        content: '';
+        position: absolute;
+        left: -70px;
+        width: 50px;
+        height: 100%;
+        background-color: blue;
+        transition: transform .3s ease-in;
+        will-change: transform ;
+      }
+      p:hover::before {
+  transform: rotate(360deg);
+      }
+    </style>
+</head>
+<body>
+  <p>Hello World</p>
+</body>
+</html>
