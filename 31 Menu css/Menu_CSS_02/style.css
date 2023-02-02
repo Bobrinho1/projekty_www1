@@ -24,11 +24,11 @@
     width: auto;
     zoom: 1;
     height: 69px;
-    background: url(images/bottom-bg.png) repeat-x center bottom;
+    background: url(../../zadanie 35. Zasady projektowania strony internetowej/images/bottom-bg.png) repeat-x center bottom;
     border-radius: 2px;
 }
 #cssmenu ul {
-    background: url(images/nav-bg.png) repeat-x 0px 4px;
+    background: url(../../zadanie 35. Zasady projektowania strony internetowej/images/nav-bg.png) repeat-x 0px 4px;
     height: 69px;
 }
 #cssmenu ul li {
@@ -53,7 +53,7 @@
 }
 #cssmenu ul li a:hover,
 #cssmenu ul li.active a {
-    background: url(images/color.png) center bottom;
+    background: url(../../zadanie 35. Zasady projektowania strony internetowej/images/color.png) center bottom;
     display: block;
     height: 37px;
     margin-top: 0px;
