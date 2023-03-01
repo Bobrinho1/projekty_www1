@@ -2,10 +2,12 @@
 *{
     font-family: 'Capriola', sans-serif;
 }
-
+body {
+    background: repeating-linear-gradient(to bottom,  white,  lightcoral);
+}
 #menu {
-    background: #0099CC;
-    background: repeating-linear-gradient(to bottom,  #280ECC,  #FFFFFF);
+    background: lightcoral;
+    background: repeating-linear-gradient(to bottom,  red,  #FFFFFF);
     color: #FFF;
     height: 100px;
     padding-left: 18px;
@@ -44,7 +46,7 @@ img{
     margin-left: 5px;
 }
 #menu li a:hover {
-    color: #0099CC;
+    color: lightcoral;
     background: #F2F2F2;
 }
 #menu input {
@@ -104,3 +106,17 @@ img{
     #menu input:checked + label:before {content:"\00d7"}
     #menu input:checked ~ ul {display:block}
 }
+h2 {
+    color: red;
+    text-align: center;
+}
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 4px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+
