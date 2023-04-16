@@ -1,0 +1,13 @@
+* {
+    box-margin: 0;
+}
+body {
+    background-color: #47c9af;
+    font-family: 'Capriola', sans-serif;
+}
+header, footer {
+    text-align: center;
+}
+img {
+    width: 24%;
+}

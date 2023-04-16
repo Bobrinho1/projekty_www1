@@ -1,0 +1,69 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.box:hover {
+    animation: spin 1s linear infinite;
+}
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    background-color: #0f0;
+    animation: pulse 1s linear infinite;
+}
+
+#box1 {
+    animation: slide 1s ease-in-out infinite alternate;
+}
+
+#box2 img {
+    animation: bounce 1s linear infinite;
+}
+
+#box3 img {
+    animation: rotate 2s linear infinite;
+}
+
+#box4 .inner-box {
+    animation: grow 1s ease-in-out infinite alternate;
+}
+
+#box5 .inner-box {
+    animation: shrink 1s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
