@@ -1,0 +1,128 @@
+:root {
+    --back-bg-color: #899499;
+}
+
+body {
+    font-family: 'Montserrat', sans-sherif;
+    background: radial-gradient(ellipse at center,  white, gray, darkgray);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform 400ms;
+}
+
+h1 {
+    transition: transform 400ms;
+}
+
+#zdjecia{
+    padding-left: 80px;
+}
+
+#naglowek {
+    font-family: 'Capriola', sans-serif;
+    font-size: x-large ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+
+#stopka {
+    width: 100%;
+    clear: both;
+    padding: 0;
+}
+
+.polaroid {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin: 50px;
+}
+
+.polaroid .content {
+    overflow: hidden;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.polaroid .przod .zdjecie img {
+    display: block;
+}
+
+.polaroid .przod .nazwa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) 50%);
+    padding: 40px 20px 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.polaroid .przod, .polaroid .tyl {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    backface-visibility: hidden;
+    transition: transform 400ms;
+}
+
+.polaroid .tyl .content {
+    background-color: var(--back-bg-color);
+    text-align: center;
+
+}
+
+.polaroid .tyl .nazwa {
+    font-size: 2rem;
+    margin-top: 20%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.polaroid .tyl .info ul {
+    list-style: none;
+    text-align: left;
+    margin: 30px 20px;
+}
+
+.polaroid .tyl .info ul li {
+    margin: 10px 0;
+}
+
+.polaroid .tyl .info ul li i {
+    margin-right: 10px;
+}
+
+.polaroid .przod {
+    transform: perspective(900px) rotateY(0deg);
+}
+
+.polaroid .tyl {
+    transform: perspective(900px) rotateY(180deg);
+}
+
+.polaroid:hover .przod {
+    transform: perspective(900px) rotateY(-180deg);
+}
+
+.polaroid:hover .tyl {
+    transform: perspective(900px) rotateY(0deg);
+}
+
+h1:hover {
+    transform: rotate(6deg) scale(120%);
+}
