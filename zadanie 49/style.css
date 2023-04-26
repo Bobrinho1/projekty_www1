@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+#kontener {
+    width: 1200px;
+    height: 750px;
+}
+#menu {
+    width: 160px;
+    height: 610px;
+    padding: 20px;
+    float: left;
+    background-color: aquamarine;
+}
+#zdjecie {
+    background-color: white;
+    width: 1000px;
+    height: 650px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    align-content: center;
+}
+#stopka {
+    height: 100px;
+    width: 1200px;
+    background-color: cyan;
+    clear: both;
+    text-align: center;
+}
